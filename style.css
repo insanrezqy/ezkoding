@@ -1,0 +1,162 @@
+*{
+    font-family: "plus sans jaka",sans-serif;
+}
+
+body{
+    /*margin: 0;
+    padding: 0;
+    box-sizing: border-box;*/
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 6rem;
+    height: 80px;
+    max-width: 1440px;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.background-image{
+    position: absolute;
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMTdjNTBhM2ItZTEyYy00OGMzLWEzNDAtNWI4YmE4MjUyYjZjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: top;
+    background-size: cover;
+    z-index: -10;
+}
+
+.content-wrapper{
+    max-width: 1440px;
+    display: flex;
+    align-items: flex-start;
+    gap: 56px;
+    padding: 8rem 6rem;
+    color: white;
+}
+
+.cover{
+    flex: 0 0 320px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.cover img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.content .genre li{
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.sinopsis{
+    font-size: 16px;
+    line-height: 32px;
+    min-height: 84px;
+    margin-top: 20px;
+}
+
+.cta-trailer{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cta-trailer a{
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.cta-trailer a:hover{
+ color:  black;
+ background: white;
+}
+
+.content .detail{
+    flex-direction: column;
+    margin-top: 84px;
+    color: black;
+}
+
+.content .detail li{
+    display: flex;
+    align-items: center;
+    line-height: auto;
+}
+
+.content .detail li span,
+.content .detail li label{
+    display: inline;
+}
+
+.content .detail li span{
+    color: black;
+}
+
+.content .detail li label{
+    color: grey;
+}
+
+.cta-edit-delete{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cta-edit-delete button{
+    margin-top: 40px;
+    padding: 12px 32px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-edit-delete button:hover{
+    opacity: 0.8s;
+}
+
+.cta-edit-delete .edit{
+    background: black;
+    color: gold;
+}
+
+.cta-edit-delete .delete{
+    background: red;
+    color: white;
+}
+
+footer{
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
